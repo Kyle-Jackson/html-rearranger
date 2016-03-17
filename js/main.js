@@ -1,8 +1,13 @@
-var $h1 = $('h1');
-var $ul = $('ul');
+var $h1abvgrnd = $('<h1>');
+var $h1blwgrnd = $('<h1>');
+var $ulabv = $('<h1>');
+var $ulbl = $('<h1>');
 
-$h1.html('Below ground veggies');
-$ul.addClass('veggies-list');
+$h1abvgrnd.html('Below ground veggies');
+$h1blwgrnd.html('Above ground veggies');
+$ulabv.addClass('veggies-list');
+
+
 
 veggies.forEach(function (veggies) {
   var $li = $('<li>');
